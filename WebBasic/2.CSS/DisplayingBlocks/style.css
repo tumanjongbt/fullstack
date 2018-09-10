@@ -1,0 +1,64 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 760px;
+    background-color: rgb(224, 217, 178);
+    margin: 0px auto;
+    padding: 10px;
+}
+#header{
+    min-height: 100px;
+    width: 540px;
+    margin-left: 100px;
+    padding: 1px;
+    display: block;
+}
+.logo {
+    width: 100px;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: inline-block; 
+    vertical-align:bottom;
+}
+h1{
+    display: inline-block;
+    padding: 1px;
+    margin-bottom: 5px;
+    font-weight: bold; 
+}
+#main_content{
+    min-height: 120px;
+    margin: 1px;
+    padding: 1px;
+    display: block;
+}
+.subcontents{
+    min-height: 120px;
+    width: 120px;
+    margin: 1px 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    background-color: rgb(7, 143, 206);
+}
+.subcontents1{
+    min-height: 120px;
+    width: 120px;
+    margin: 1px 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    background-color:rgb(230, 141, 141);
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: inline-block; 
+}
