@@ -1,0 +1,165 @@
+*{
+    /* outline: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 1000px;
+    min-height: 900px;
+    /* background-color: rgb(53, 29, 29); */
+    display: block;
+    margin: 0px auto;
+}
+.top{
+    display: block;
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 20px;
+}
+    .top h1{
+        display: inline;
+        color:black;
+        padding: 5px;
+    }
+    .top h2{
+        display: inline;
+        color:black;
+        padding: 5px;
+        margin-left: 400px;
+    }
+.main{
+    display: block;
+    background-color: rgb(24, 13, 7);
+    padding: 15px;
+    margin: 0px auto;
+}
+    .main img{
+        display: inline-block;
+        background-color: rgb(226, 218, 218);
+        width: 400px;
+        height: 300px;
+        margin: 10px; 
+        padding: 6px;
+        vertical-align: top;
+    }
+    .about {
+        display: inline-block;
+        background-color: whitesmoke;
+        width: 500px;
+        height: 310px;
+        margin: 10px;
+        vertical-align: top;
+    }
+        .about h2{
+            background-color: darkgrey;
+            padding: 10px;
+            color: white;
+        }
+        .about p{
+            font-size: 20px;
+            padding: 10px;
+            display: inline-block;
+        }
+        .about a{
+            font-size: 20px;
+            padding: 10px;
+            display: inline-block;
+        }
+    .topics{
+        display: inline-block;
+        vertical-align: top;
+        width: 294px;
+        background-color: whitesmoke;
+        margin: 12px;
+        /* padding: 8px;  */
+        min-height: 400px;
+        }
+        .topics h2{
+            background-color: grey;
+            color: white;
+            padding: 5px;
+
+        }
+        .image img{
+            height: 130px;
+            width: 288px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .topics p{
+            margin: 10px;
+        }
+        .logos{
+            height: 40px;
+            width: 39px;
+            margin: 5px;
+            display: inline-block;
+        }
+            .logos img{
+                height:40px;
+                width: 39px;
+                padding: 0px;
+                background-color: whitesmoke;
+
+            }
+        button{
+            display: block;
+            padding: 10px;
+            margin-left: 100px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            background-color: green;
+            color: white;
+            border-radius: 15px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    .email{
+        display: block;
+        background-color: whitesmoke;
+        /* padding: 8px;  */
+        height: 20;
+        margin: 0px auto;
+        }       
+        .email p{
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+    .contact{
+        display: block;
+        background-color: whitesmoke;
+        /* padding: 8px;  */
+        height: 35px;
+        vertical-align: top;
+        text-align: center;
+        border: 0px;
+        margin: 0px;
+        }  
+
+        .contact logos{
+            margin: 0px;
+            display: inline-block;
+        }
+            .contact img{
+                height:20px;
+                width: 19px;
+                /* padding: 2px; */
+                margin: 5px;
+                background-color: whitesmoke;
+                vertical-align: top;
+                margin-right: 0px;
+                display: inline-block;
+            }
+            .contact a{
+                /* height:20px; */
+                width: 50px;
+                padding: 2px;
+                margin-left: 0px;
+                text-align: center;
+                vertical-align: top;
+                background-color: whitesmoke;
+                display: inline-block;
+            }
