@@ -1,11 +1,12 @@
-a = 15;
-console.log(a);
-function y(a){
-   console.log(a);   
-   return a*2;
-}
-b = y(10);
-console.log(b);
+function looping(x,y){
+    for(var i=0; i<x; i++){
+       for(var j=0; j<x; j++){         
+           console.log(i*j);
+       } 
+    }
+ }
+ z = looping(3,3);
+ console.log(z);
 
 // set a = 15
 // console.log(a) = 15
