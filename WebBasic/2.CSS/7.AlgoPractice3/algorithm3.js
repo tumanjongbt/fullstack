@@ -45,3 +45,9 @@ function printAverage(x){
   console.log(y); // should log [4,25,64]
   
   
+
+
+
+
+
+

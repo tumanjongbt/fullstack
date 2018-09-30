@@ -69,7 +69,7 @@ function looping(x,y){
 }
 z = looping(3,3);
 console.log(z);
-Prediction:0,0,0,0,1,2,0,2,4
+Prediction:0,0,0,0,1,2,0,2,4    
 Output: 0,0,0,0,1,2,0,2,4
 
 
