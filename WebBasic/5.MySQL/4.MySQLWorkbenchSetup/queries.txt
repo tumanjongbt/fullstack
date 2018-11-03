@@ -1,0 +1,8 @@
+
+INSERT INTO users (first_name, last_name, handle, birthday, created_at) VALUES ('Kyrie', 'Irving', 'kyrieIrving', '1992-03-23', now())
+
+SELECT * FROM users  WHERE users.first_name = 'Kyrie'
+
+UPDATE users SET updated_at = now() WHERE id = 6
+
+DELETE FROM users WHERE id = 3
